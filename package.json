@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/gianbelinche/agile_solutions_be#readme",
   "devDependencies": {
+    "@faker-js/faker": "^7.0.1",
     "nodemon": "^2.0.16"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "faker": "^6.6.6"
   }
 }

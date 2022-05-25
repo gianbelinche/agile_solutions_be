@@ -3,6 +3,7 @@ const cors = require("cors");
 const categorysRoute = require("./routes/categorysRoute");
 const productsRoute = require("./routes/productsRoute");
 const brandsRoute = require("./routes/brandsRoute");
+const dataRoute = require("./routes/dataRoute");
 const bodyParser = require("body-parser");
 
 const app = express();
@@ -22,3 +23,4 @@ app.use(bodyParser.json());
 app.use("/categorys", categorysRoute);
 app.use("/products", productsRoute);
 app.use("/brands", brandsRoute);
+app.use("/data", dataRoute);
